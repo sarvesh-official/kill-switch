@@ -3,6 +3,7 @@
   "displayName": "Kill Switch",
   "description": "VS Code extension to kill processes running on ports",
   "publisher": "Sarvesh",
+  "icon": "src/assets/icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/sarvesh-official/kill-switch"
