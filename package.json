@@ -1,0 +1,60 @@
+{
+  "name": "kill-switch",
+  "displayName": "Kill Switch",
+  "description": "VS Code extension to kill processes running on ports",
+  "publisher": "Sarvesh",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/kill-switch"
+  },
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": ["Other"],
+"activationEvents": [
+  
+  
+  
+],  "main": "./out/extension.js",
+"contributes": {
+  "commands": [
+    {
+      "command": "kill-switch.killProcessInPort",
+      "title": "Kill Process by Port"
+    },
+    {
+      "command": "kill-switch.openCommandPalette",
+      "title": "Open Kill Switch in Command Palette"
+    }
+  ],
+  "viewsContainers": {
+    "activitybar": [
+      {
+        "id": "kill-switch",
+        "title": "Kill Switch",
+        "icon": "src/assets/icon.png"
+      }
+    ]
+  }
+},
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.98.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "@typescript-eslint/eslint-plugin": "^8.28.0",
+    "@typescript-eslint/parser": "^8.28.0",
+    "eslint": "^9.23.0",
+    "typescript": "^5.8.2",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1"
+  }
+}
