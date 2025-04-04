@@ -5,7 +5,7 @@
   "publisher": "Sarvesh",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/kill-switch"
+    "url": "https://github.com/sarvesh-official/kill-switch"
   },
   "version": "0.0.1",
   "engines": {
@@ -21,7 +21,7 @@
   "commands": [
     {
       "command": "kill-switch.killProcessInPort",
-      "title": "Kill Process by Port"
+      "title": "Kill Switch"
     },
     {
       "command": "kill-switch.openCommandPalette",

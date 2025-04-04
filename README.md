@@ -8,6 +8,11 @@ Kill Switch is a VS Code extension that allows users to quickly kill processes r
 - **Cross-Platform Support**: Works on Windows (PowerShell) and macOS/Linux (lsof & kill commands).  
 - **Lightweight & Fast**: No additional dependencies required.  
 
+## Video Tutorial  
+
+![Kill Switch Tutorial](src/assets/tutorial.gif)  
+
+
 ## How to Use  
 
 1. Open the **VS Code search bar** (`Ctrl + P` or `Cmd + P` on Mac).  
@@ -40,9 +45,6 @@ This extension does not require any additional settings.
 - Adding sidebar integration if needed.  
 - Displaying process details before termination.  
 
-## Video Tutorial  
-
-![Kill Switch Tutorial](src/assets/tutorial.gif)  
 
 
 ---
